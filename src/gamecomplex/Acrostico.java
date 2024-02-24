@@ -1,6 +1,5 @@
 package gamecomplex;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -84,61 +83,61 @@ public class Acrostico extends JFrame {
 				if(e.getKeyCode() == KeyEvent.VK_ENTER ){	
 			    	
 					String palavra = textField.getText();
-					palavra = palavra.replaceAll("·", "a");
-					palavra = palavra.replaceAll("‡", "a");
-					palavra = palavra.replaceAll("‚", "a");
-					palavra = palavra.replaceAll("„", "a");
-					palavra = palavra.replaceAll("‰", "a");
+					palavra = palavra.replaceAll("√°", "a");
+					palavra = palavra.replaceAll("√£", "a");
+					palavra = palavra.replaceAll("√†", "a");
+					palavra = palavra.replaceAll("√¢", "a");
+					palavra = palavra.replaceAll("√§", "a");
 					
-					palavra = palavra.replaceAll("¡", "a");
-					palavra = palavra.replaceAll("¿", "a");
-					palavra = palavra.replaceAll("¬", "a");
-					palavra = palavra.replaceAll("√", "a");
-					palavra = palavra.replaceAll("ƒ", "a");
+					palavra = palavra.replaceAll("√Å", "a");
+					palavra = palavra.replaceAll("√É", "a");
+					palavra = palavra.replaceAll("√Ä", "a");
+					palavra = palavra.replaceAll("√Ç", "a");
+					palavra = palavra.replaceAll("√Ñ", "a");
 					
-					palavra = palavra.replaceAll("Á", "c");
+					palavra = palavra.replaceAll("√ß", "c");
 					
-					palavra = palavra.replaceAll("È", "e");
-					palavra = palavra.replaceAll("Ë", "e");
-					palavra = palavra.replaceAll("Í", "e");
-					palavra = palavra.replaceAll("Î", "e");
+					palavra = palavra.replaceAll("√©", "e");
+					palavra = palavra.replaceAll("√™", "e");
+					palavra = palavra.replaceAll("√®", "e");
+					palavra = palavra.replaceAll("√´", "e");
 					
-					palavra = palavra.replaceAll("…", "e");
-					palavra = palavra.replaceAll("»", "e");
-					palavra = palavra.replaceAll(" ", "e");
-					palavra = palavra.replaceAll("À", "e");
+					palavra = palavra.replaceAll("√â", "e");
+					palavra = palavra.replaceAll("√ä", "e");
+					palavra = palavra.replaceAll("√à", "e");
+					palavra = palavra.replaceAll("√ã", "e");
 					
-					palavra = palavra.replaceAll("Ì", "i");
-					palavra = palavra.replaceAll("Ï", "i");
-					palavra = palavra.replaceAll("Ó", "i");
-					palavra = palavra.replaceAll("Ô", "i");
+					palavra = palavra.replaceAll("√≠", "i");
+					palavra = palavra.replaceAll("√Æ", "i");
+					palavra = palavra.replaceAll("√¨", "i");
+					palavra = palavra.replaceAll("√Ø", "i");
 					
-					palavra = palavra.replaceAll("Õ", "i");
-					palavra = palavra.replaceAll("Ã", "i");
-					palavra = palavra.replaceAll("Œ", "i");
-					palavra = palavra.replaceAll("œ", "i");
+					palavra = palavra.replaceAll("√å", "i");
+					palavra = palavra.replaceAll("√é", "i");
+					palavra = palavra.replaceAll("√ç", "i");
+					palavra = palavra.replaceAll("√è", "i");
 					
-					palavra = palavra.replaceAll("Û", "o");
-					palavra = palavra.replaceAll("Ú", "o");
-					palavra = palavra.replaceAll("Ù", "o");
-					palavra = palavra.replaceAll("ı", "o");
-					palavra = palavra.replaceAll("ˆ", "o");
+					palavra = palavra.replaceAll("√≥", "o");
+					palavra = palavra.replaceAll("√≤", "o");
+					palavra = palavra.replaceAll("√¥", "o");
+					palavra = palavra.replaceAll("√µ", "o");
+					palavra = palavra.replaceAll("√∂", "o");
 					
-					palavra = palavra.replaceAll("”", "o");
-					palavra = palavra.replaceAll("“", "o");
-					palavra = palavra.replaceAll("‘", "o");
-					palavra = palavra.replaceAll("’", "o");
-					palavra = palavra.replaceAll("÷", "o");
+					palavra = palavra.replaceAll("√ì", "o");
+					palavra = palavra.replaceAll("√í", "o");
+					palavra = palavra.replaceAll("√ï", "o");
+					palavra = palavra.replaceAll("√î", "o");
+					palavra = palavra.replaceAll("√ñ", "o");
 					
-					palavra = palavra.replaceAll("˙", "u");
-					palavra = palavra.replaceAll("˘", "u");
-					palavra = palavra.replaceAll("˚", "u");
-					palavra = palavra.replaceAll("¸", "u");
+					palavra = palavra.replaceAll("√∫", "u");
+					palavra = palavra.replaceAll("√π", "u");
+					palavra = palavra.replaceAll("√ª", "u");
+					palavra = palavra.replaceAll("√º", "u");
 				
-					palavra = palavra.replaceAll("⁄", "u");
-					palavra = palavra.replaceAll("Ÿ", "u");
-					palavra = palavra.replaceAll("€", "u");
-					palavra = palavra.replaceAll("‹", "u");
+					palavra = palavra.replaceAll("√ö", "u");
+					palavra = palavra.replaceAll("√ô", "u");
+					palavra = palavra.replaceAll("√õ", "u");
+					palavra = palavra.replaceAll("√ú", "u");
 					palavra = palavra.toUpperCase();
 					/*		
 					A
@@ -207,7 +206,7 @@ public class Acrostico extends JFrame {
 								bublioCheck = false;
 								}
 							boolean bamboeCheck = true;
-							if(!palavra.equalsIgnoreCase("bamboÈ")) {
+							if(!palavra.equalsIgnoreCase("bamboe")) {
 								bamboeCheck = true;
 								}else {
 								bamboeCheck = false;
@@ -285,7 +284,7 @@ public class Acrostico extends JFrame {
 								deletriusCheck = false;
 								}
 							boolean dragaoCheck = true;
-							if(!palavra.equalsIgnoreCase("drag„o")) {
+							if(!palavra.equalsIgnoreCase("dragao")) {
 								dragaoCheck = true;
 								}else {
 								dragaoCheck = false;
@@ -318,7 +317,7 @@ public class Acrostico extends JFrame {
 								expelliarmusCheck = false;
 								}
 							boolean estupefacaCheck = true;
-							if(!palavra.equalsIgnoreCase("estupefaÁa")) {
+							if(!palavra.equalsIgnoreCase("estupefaÔøΩa")) {
 								estupefacaCheck = true;
 								}else {
 								estupefacaCheck = false;
@@ -658,7 +657,7 @@ public class Acrostico extends JFrame {
 								narcisaCheck = false;
 								}
 							boolean nataliaCheck = true;
-							if(!palavra.equalsIgnoreCase("nat·lia")) {
+							if(!palavra.equalsIgnoreCase("natÔøΩlia")) {
 								nataliaCheck = true;
 								}else {
 								nataliaCheck = false;
@@ -870,7 +869,7 @@ public class Acrostico extends JFrame {
 					T
 					*/
 							boolean transfiguracaoCheck = true;
-							if(!palavra.equalsIgnoreCase("transfiguraÁ„o")) {
+							if(!palavra.equalsIgnoreCase("transfiguracao")) {
 								transfiguracaoCheck = true;
 								}else {
 								transfiguracaoCheck = false;
@@ -888,7 +887,7 @@ public class Acrostico extends JFrame {
 								travessaCheck = false;
 								}
 							boolean tratoDCMCheck = true;
-							if(!palavra.equalsIgnoreCase("trato das criaturas m·gicas")) {
+							if(!palavra.equalsIgnoreCase("trato das criaturas magicas")) {
 								tratoDCMCheck = true;
 								}else {
 								tratoDCMCheck = false;
@@ -921,13 +920,13 @@ public class Acrostico extends JFrame {
 								uruzCheck = false;
 								}
 							boolean unicornioCheck = true;
-							if(!palavra.equalsIgnoreCase("unicÛrnio")) {
+							if(!palavra.equalsIgnoreCase("unicornio")) {
 								unicornioCheck = true;
 								}else {
 								unicornioCheck = false;
 								}
 							boolean uediuosiCheck = true;
-							if(!palavra.equalsIgnoreCase("uediuÛsi")) {
+							if(!palavra.equalsIgnoreCase("uediuosi")) {
 								uediuosiCheck = true;
 								}else {
 								uediuosiCheck = false;
@@ -1131,7 +1130,7 @@ public class Acrostico extends JFrame {
 						        	textArea.append("ublio");	
 						        	bublioCheck = false;
 						        }else if (bamboeCheck == true && (palavra.charAt(i)) == 'B') {
-						        	textArea.append("amboÈ");	
+						        	textArea.append("amboÔøΩ");	
 						        	bamboeCheck = false;
 						        	
 					//================================================================================	        	
@@ -1162,7 +1161,7 @@ public class Acrostico extends JFrame {
 						        	textArea.append("raconifors");	
 						        	draconiforsCheck = false;
 						        }else if (dragaoCheck == true && (palavra.charAt(i)) == 'D') {
-						        	textArea.append("rag„o");	
+						        	textArea.append("ragÔøΩo");	
 						        	dragaoCheck = false;
 						        }else if (diabreteCheck == true && (palavra.charAt(i)) == 'D') {
 						        	textArea.append("iabrete");	
@@ -1189,7 +1188,7 @@ public class Acrostico extends JFrame {
 							        	textArea.append("xpelliarmus");	
 							        	expelliarmusCheck = false;
 							        }else if (estupefacaCheck == true && (palavra.charAt(i)) == 'E') {
-							        	textArea.append("stupefaÁa");	
+							        	textArea.append("stupefaÔøΩa");	
 							        	estupefacaCheck = false;
 							        }else if (estuporeCheck == true && (palavra.charAt(i)) == 'E') {
 							        	textArea.append("stupore");	
@@ -1371,7 +1370,7 @@ public class Acrostico extends JFrame {
 								        	textArea.append("argle");	
 								        	nargleCheck = false;
 								        }else if (nataliaCheck == true && (palavra.charAt(i)) == 'N') {
-								        	textArea.append("at·lia McDonald");	
+								        	textArea.append("atalia McDonald");
 								        	nataliaCheck = false;
 							        
 					//================================================================================	
@@ -1408,7 +1407,7 @@ public class Acrostico extends JFrame {
 								        	textArea.append("ericullum");	
 								        	pericullumCheck = false;
 								        }else if (peterCheck == true && (palavra.charAt(i)) == 'P') {
-								        	textArea.append("eter");	
+								        	textArea.append("eter Pettigrew");
 								        	peterCheck = false;
 								        }else if (petuniaCheck == true && (palavra.charAt(i)) == 'P') {
 								        	textArea.append("etunia");	
@@ -1483,7 +1482,7 @@ public class Acrostico extends JFrame {
 					//================================================================================	
 
 								        }else if (transfiguracaoCheck == true && (palavra.charAt(i)) == 'T') {
-								        	textArea.append("ransfiguraÁ„o");	
+								        	textArea.append("ransfiguracao");
 								        	transfiguracaoCheck = false;
 								        }else if (trasgoCheck == true && (palavra.charAt(i)) == 'T') {
 								        	textArea.append("rasgo");	
@@ -1492,7 +1491,7 @@ public class Acrostico extends JFrame {
 								        	textArea.append("ravessa do Tranco");	
 								        	travessaCheck = false;
 								        }else if (tratoDCMCheck == true && (palavra.charAt(i)) == 'T') {
-								        	textArea.append("rato das Criaturas M·gicas");	
+								        	textArea.append("rato das Criaturas Magicas");
 								        	tratoDCMCheck = false;
 								        }else if (thomasCheck == true && (palavra.charAt(i)) == 'T') {
 								        	textArea.append("homas");	
@@ -1510,10 +1509,10 @@ public class Acrostico extends JFrame {
 								        	textArea.append("ruz");	
 								        	uruzCheck = false;
 								        }else if (unicornioCheck == true && (palavra.charAt(i)) == 'U') {
-								        	textArea.append("nicÛrnio");	
+								        	textArea.append("nicÔøΩrnio");	
 								        	unicornioCheck = false;
 								        }else if (uediuosiCheck == true && (palavra.charAt(i)) == 'U') {
-								        	textArea.append("ediuÛsi");	
+								        	textArea.append("ediuosi");
 								        	uediuosiCheck = false;
 								        }else if (umbridgeCheck == true && (palavra.charAt(i)) == 'U') {
 								        	textArea.append("mbridge");	
@@ -1642,61 +1641,61 @@ public class Acrostico extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 			
 				String palavra = textField.getText();
-				palavra = palavra.replaceAll("·", "a");
-				palavra = palavra.replaceAll("‡", "a");
-				palavra = palavra.replaceAll("‚", "a");
-				palavra = palavra.replaceAll("„", "a");
-				palavra = palavra.replaceAll("‰", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
 				
-				palavra = palavra.replaceAll("¡", "a");
-				palavra = palavra.replaceAll("¿", "a");
-				palavra = palavra.replaceAll("¬", "a");
-				palavra = palavra.replaceAll("√", "a");
-				palavra = palavra.replaceAll("ƒ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
+				palavra = palavra.replaceAll("ÔøΩ", "a");
 				
-				palavra = palavra.replaceAll("Á", "c");
+				palavra = palavra.replaceAll("ÔøΩ", "c");
 				
-				palavra = palavra.replaceAll("È", "e");
-				palavra = palavra.replaceAll("Ë", "e");
-				palavra = palavra.replaceAll("Í", "e");
-				palavra = palavra.replaceAll("Î", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
 				
-				palavra = palavra.replaceAll("…", "e");
-				palavra = palavra.replaceAll("»", "e");
-				palavra = palavra.replaceAll(" ", "e");
-				palavra = palavra.replaceAll("À", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
+				palavra = palavra.replaceAll("ÔøΩ", "e");
 				
-				palavra = palavra.replaceAll("Ì", "i");
-				palavra = palavra.replaceAll("Ï", "i");
-				palavra = palavra.replaceAll("Ó", "i");
-				palavra = palavra.replaceAll("Ô", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
 				
-				palavra = palavra.replaceAll("Õ", "i");
-				palavra = palavra.replaceAll("Ã", "i");
-				palavra = palavra.replaceAll("Œ", "i");
-				palavra = palavra.replaceAll("œ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
+				palavra = palavra.replaceAll("ÔøΩ", "i");
 				
-				palavra = palavra.replaceAll("Û", "o");
-				palavra = palavra.replaceAll("Ú", "o");
-				palavra = palavra.replaceAll("Ù", "o");
-				palavra = palavra.replaceAll("ı", "o");
-				palavra = palavra.replaceAll("ˆ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
 				
-				palavra = palavra.replaceAll("”", "o");
-				palavra = palavra.replaceAll("“", "o");
-				palavra = palavra.replaceAll("‘", "o");
-				palavra = palavra.replaceAll("’", "o");
-				palavra = palavra.replaceAll("÷", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
+				palavra = palavra.replaceAll("ÔøΩ", "o");
 				
-				palavra = palavra.replaceAll("˙", "u");
-				palavra = palavra.replaceAll("˘", "u");
-				palavra = palavra.replaceAll("˚", "u");
-				palavra = palavra.replaceAll("¸", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
 			
-				palavra = palavra.replaceAll("⁄", "u");
-				palavra = palavra.replaceAll("Ÿ", "u");
-				palavra = palavra.replaceAll("€", "u");
-				palavra = palavra.replaceAll("‹", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
+				palavra = palavra.replaceAll("ÔøΩ", "u");
 				palavra = palavra.toUpperCase();
 				/*		
 				A
@@ -1765,7 +1764,7 @@ public class Acrostico extends JFrame {
 							bublioCheck = false;
 							}
 						boolean bamboeCheck = true;
-						if(!palavra.equalsIgnoreCase("bamboÈ")) {
+						if(!palavra.equalsIgnoreCase("bamboe")) {
 							bamboeCheck = true;
 							}else {
 							bamboeCheck = false;
@@ -1843,7 +1842,7 @@ public class Acrostico extends JFrame {
 							deletriusCheck = false;
 							}
 						boolean dragaoCheck = true;
-						if(!palavra.equalsIgnoreCase("drag„o")) {
+						if(!palavra.equalsIgnoreCase("dragao")) {
 							dragaoCheck = true;
 							}else {
 							dragaoCheck = false;
@@ -1876,7 +1875,7 @@ public class Acrostico extends JFrame {
 							expelliarmusCheck = false;
 							}
 						boolean estupefacaCheck = true;
-						if(!palavra.equalsIgnoreCase("estupefaÁa")) {
+						if(!palavra.equalsIgnoreCase("estupefaca")) {
 							estupefacaCheck = true;
 							}else {
 							estupefacaCheck = false;
@@ -2216,7 +2215,7 @@ public class Acrostico extends JFrame {
 							narcisaCheck = false;
 							}
 						boolean nataliaCheck = true;
-						if(!palavra.equalsIgnoreCase("nat·lia")) {
+						if(!palavra.equalsIgnoreCase("natalia")) {
 							nataliaCheck = true;
 							}else {
 							nataliaCheck = false;
@@ -2428,7 +2427,7 @@ public class Acrostico extends JFrame {
 				T
 				*/
 						boolean transfiguracaoCheck = true;
-						if(!palavra.equalsIgnoreCase("transfiguraÁ„o")) {
+						if(!palavra.equalsIgnoreCase("transfiguracao")) {
 							transfiguracaoCheck = true;
 							}else {
 							transfiguracaoCheck = false;
@@ -2446,7 +2445,7 @@ public class Acrostico extends JFrame {
 							travessaCheck = false;
 							}
 						boolean tratoDCMCheck = true;
-						if(!palavra.equalsIgnoreCase("trato das criaturas m·gicas")) {
+						if(!palavra.equalsIgnoreCase("trato das criaturas mÔøΩgicas")) {
 							tratoDCMCheck = true;
 							}else {
 							tratoDCMCheck = false;
@@ -2479,13 +2478,13 @@ public class Acrostico extends JFrame {
 							uruzCheck = false;
 							}
 						boolean unicornioCheck = true;
-						if(!palavra.equalsIgnoreCase("unicÛrnio")) {
+						if(!palavra.equalsIgnoreCase("unicornio")) {
 							unicornioCheck = true;
 							}else {
 							unicornioCheck = false;
 							}
 						boolean uediuosiCheck = true;
-						if(!palavra.equalsIgnoreCase("uediuÛsi")) {
+						if(!palavra.equalsIgnoreCase("uediuosi")) {
 							uediuosiCheck = true;
 							}else {
 							uediuosiCheck = false;
@@ -2689,7 +2688,7 @@ public class Acrostico extends JFrame {
 					        	textArea.append("ublio");	
 					        	bublioCheck = false;
 					        }else if (bamboeCheck == true && (palavra.charAt(i)) == 'B') {
-					        	textArea.append("amboÈ");	
+					        	textArea.append("amboe");
 					        	bamboeCheck = false;
 					        	
 				//================================================================================	        	
@@ -2720,7 +2719,7 @@ public class Acrostico extends JFrame {
 					        	textArea.append("raconifors");	
 					        	draconiforsCheck = false;
 					        }else if (dragaoCheck == true && (palavra.charAt(i)) == 'D') {
-					        	textArea.append("rag„o");	
+					        	textArea.append("ragao");
 					        	dragaoCheck = false;
 					        }else if (diabreteCheck == true && (palavra.charAt(i)) == 'D') {
 					        	textArea.append("iabrete");	
@@ -2747,7 +2746,7 @@ public class Acrostico extends JFrame {
 						        	textArea.append("xpelliarmus");	
 						        	expelliarmusCheck = false;
 						        }else if (estupefacaCheck == true && (palavra.charAt(i)) == 'E') {
-						        	textArea.append("stupefaÁa");	
+						        	textArea.append("stupefaÔøΩa");	
 						        	estupefacaCheck = false;
 						        }else if (estuporeCheck == true && (palavra.charAt(i)) == 'E') {
 						        	textArea.append("stupore");	
@@ -2929,7 +2928,7 @@ public class Acrostico extends JFrame {
 							        	textArea.append("argle");	
 							        	nargleCheck = false;
 							        }else if (nataliaCheck == true && (palavra.charAt(i)) == 'N') {
-							        	textArea.append("at·lia McDonald");	
+							        	textArea.append("atalia McDonald");
 							        	nataliaCheck = false;
 						        
 				//================================================================================	
@@ -2966,7 +2965,7 @@ public class Acrostico extends JFrame {
 							        	textArea.append("ericullum");	
 							        	pericullumCheck = false;
 							        }else if (peterCheck == true && (palavra.charAt(i)) == 'P') {
-							        	textArea.append("eter");	
+							        	textArea.append("eter Pettigrew");
 							        	peterCheck = false;
 							        }else if (petuniaCheck == true && (palavra.charAt(i)) == 'P') {
 							        	textArea.append("etunia");	
@@ -3041,7 +3040,7 @@ public class Acrostico extends JFrame {
 				//================================================================================	
 
 							        }else if (transfiguracaoCheck == true && (palavra.charAt(i)) == 'T') {
-							        	textArea.append("ransfiguraÁ„o");	
+							        	textArea.append("ransfiguracao");
 							        	transfiguracaoCheck = false;
 							        }else if (trasgoCheck == true && (palavra.charAt(i)) == 'T') {
 							        	textArea.append("rasgo");	
@@ -3050,7 +3049,7 @@ public class Acrostico extends JFrame {
 							        	textArea.append("ravessa do Tranco");	
 							        	travessaCheck = false;
 							        }else if (tratoDCMCheck == true && (palavra.charAt(i)) == 'T') {
-							        	textArea.append("rato das Criaturas M·gicas");	
+							        	textArea.append("rato das Criaturas MÔøΩgicas");	
 							        	tratoDCMCheck = false;
 							        }else if (thomasCheck == true && (palavra.charAt(i)) == 'T') {
 							        	textArea.append("homas");	
@@ -3068,10 +3067,10 @@ public class Acrostico extends JFrame {
 							        	textArea.append("ruz");	
 							        	uruzCheck = false;
 							        }else if (unicornioCheck == true && (palavra.charAt(i)) == 'U') {
-							        	textArea.append("nicÛrnio");	
+							        	textArea.append("nicornio");
 							        	unicornioCheck = false;
 							        }else if (uediuosiCheck == true && (palavra.charAt(i)) == 'U') {
-							        	textArea.append("ediuÛsi");	
+							        	textArea.append("ediuosi");
 							        	uediuosiCheck = false;
 							        }else if (umbridgeCheck == true && (palavra.charAt(i)) == 'U') {
 							        	textArea.append("mbridge");	
